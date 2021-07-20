@@ -1,4 +1,4 @@
-// Copyright 2018 The go-zeromq Authors. All rights reserved.
+// Copyright 2018 The pedrolupin Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -9,8 +9,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/go-zeromq/zmq4/internal/inproc"
-	"github.com/go-zeromq/zmq4/transport"
+	"github.com/pedrolupin/zmq4/internal/inproc"
+	"github.com/pedrolupin/zmq4/transport"
 )
 
 // Transports returns the sorted list of currently registered transports.

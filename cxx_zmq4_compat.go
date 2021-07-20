@@ -1,4 +1,4 @@
-// Copyright 2018 The go-zeromq Authors. All rights reserved.
+// Copyright 2018 The pedrolupin Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
@@ -12,7 +12,7 @@ import (
 	"net"
 	"strings"
 
-	czmq4 "github.com/go-zeromq/goczmq/v4"
+	czmq4 "github.com/pedrolupin/goczmq/v4"
 )
 
 func NewCPair(ctx context.Context, opts ...czmq4.SockOption) Socket {

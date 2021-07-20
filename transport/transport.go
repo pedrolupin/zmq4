@@ -1,10 +1,10 @@
-// Copyright 2020 The go-zeromq Authors. All rights reserved.
+// Copyright 2020 The pedrolupin Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
 // Package transport defines the Transport interface and provides a net-based
 // implementation that can be used by zmq4 sockets to exchange messages.
-package transport // import "github.com/go-zeromq/zmq4/transport"
+package transport // import "github.com/pedrolupin/zmq4/transport"
 
 import (
 	"context"

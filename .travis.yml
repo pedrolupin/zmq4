@@ -1,4 +1,4 @@
-go_import_path: github.com/go-zeromq/zmq4
+go_import_path: github.com/pedrolupin/zmq4
 
 sudo: true
 language: go
